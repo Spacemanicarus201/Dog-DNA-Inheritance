@@ -1,0 +1,69 @@
+Core Genetic Components
+
+Allele Dictionary (Fixed Set)
+
+Use known coat color loci: E, K, A, B, D, M, H, S.
+
+Each locus has a fixed set of alleles (e.g., E = {E, Em, e}, K = {KB, kbr, ky}).
+
+No need to simulate new mutations (optional feature).
+
+
+Punnett Square (Theory)
+
+Shows all possible genotypes & probabilities for a given locus.
+
+Good for understanding the math of inheritance.
+
+Example: E/e × E/e → 25% EE, 50% Ee, 25% ee.
+
+
+Monte Carlo Simulation (Practice)
+
+Runs randomized mating for many offspring.
+
+Produces realistic probabilities across all loci together.
+
+Example: simulate 100 pups → 42% black, 38% sable, 20% merle.
+
+Validates Punnett results on a larger scale.
+
+🔹 UI/UX Design with Pygame
+
+Start Screen
+
+Select Parent 1 and Parent 2 breeds.
+
+Option to manually set alleles.
+
+
+Genetics Panel
+
+Show parents’ allele configuration per locus.
+
+Drop-downs or buttons to select alleles.
+
+
+Punnett View (Single Locus)
+
+Display 2×2 or 4×4 Punnett square.
+
+Show exact probabilities for that locus.
+
+
+Monte Carlo Simulation Panel
+
+Run a simulation of N pups.
+
+Visualize pups (colored dots or icons).
+
+Show phenotype frequencies (pie chart or bar graph).
+
+
+Comparison Mode
+
+Side-by-side view:
+
+Punnett (theoretical) vs Monte Carlo (simulated).
+
+Helps users see how math translates into real outcomes.
