@@ -1,0 +1,165 @@
+{
+    "Em": {
+        "description": "Reference: Masked (Boxer Default)",
+        "type": "REF",
+        "gene": "MC1R"
+    },
+    "E": {
+        "description": "Black/No Mask (Wild Type)",
+        "type": "SNP",
+        "gene": "MC1R",
+        "file": "MC1R_template.fasta",
+        "context": "GTGTGCAGCTA",
+        "ref": "G",
+        "mut": "A"
+    },
+    "e": {
+        "description": "Recessive Red",
+        "type": "SNP",
+        "gene": "MC1R",
+        "file": "MC1R_template.fasta",
+        "context": "GTGTGCAGCTA",
+        "ref": "G",
+        "mut": "T"
+    },
+    "ky": {
+        "description": "Reference: Agouti Allowed",
+        "type": "REF",
+        "gene": "CBD103"
+    },
+    "Kb": {
+        "description": "Dominant Black (Deletion)",
+        "type": "DEL",
+        "gene": "CBD103",
+        "file": "CBD103_template.fasta",
+        "context": "AAGAAAGAGAC",
+        "delete_seq": "AGA"
+    },
+    "kbr": {
+        "description": "Brindle (Insertion)",
+        "type": "INS",
+        "gene": "CBD103",
+        "file": "CBD103_template.fasta",
+        "context": "AAGAAAGAGAC",
+        "insert_seq": "BRINDLE_CNV_BLOCK"
+    },
+    "Ay": {
+        "description": "Reference: Sable/Fawn",
+        "type": "REF",
+        "gene": "ASIP"
+    },
+    "aw": {
+        "description": "Wolf Sable",
+        "type": "SNP",
+        "gene": "ASIP",
+        "file": "ASIP_template.fasta",
+        "context": "GGGGGCAGAAG",
+        "ref": "C",
+        "mut": "G"
+    },
+    "at": {
+        "description": "Tan Points",
+        "type": "SNP",
+        "gene": "ASIP",
+        "file": "ASIP_template.fasta",
+        "context": "GGGGGCAGAAG",
+        "ref": "C",
+        "mut": "A"
+    },
+    "a": {
+        "description": "Recessive Black",
+        "type": "SNP",
+        "gene": "ASIP",
+        "file": "ASIP_template.fasta",
+        "context": "GGGGGCAGAAG",
+        "ref": "C",
+        "mut": "T"
+    },
+    "B": {
+        "description": "Reference: Black Pigment",
+        "type": "REF",
+        "gene": "TYRP1"
+    },
+    "b": {
+        "description": "Brown/Liver",
+        "type": "SNP",
+        "gene": "TYRP1",
+        "file": "TYRP1_template.fasta",
+        "context": "CCTCCCAGTTA",
+        "ref": "C",
+        "mut": "T"
+    },
+    "D": {
+        "description": "Reference: Full Color",
+        "type": "REF",
+        "gene": "MLPH"
+    },
+    "d": {
+        "description": "Dilute (Blue/Isabella)",
+        "type": "SNP",
+        "gene": "MLPH",
+        "file": "MLPH_template.fasta",
+        "context": "GACGGCGGTC",
+        "ref": "G",
+        "mut": "A"
+    },
+    "m": {
+        "description": "Reference: Non-Merle",
+        "type": "REF",
+        "gene": "PMEL"
+    },
+    "M": {
+        "description": "Merle Pattern",
+        "type": "INS",
+        "gene": "PMEL",
+        "file": "PMEL_template.fasta",
+        "context": "GATCTCGAGCA",
+        "insert_seq": "MERLE_SINE_INSERTION_BLOCK"
+    },
+    "S": {
+        "description": "Reference: Solid Coat",
+        "type": "REF",
+        "gene": "MITF"
+    },
+    "si": {
+        "description": "Irish Spotting",
+        "type": "SNP",
+        "gene": "MITF",
+        "file": "MITF_template.fasta",
+        "context": "AAAGCAAGCCC",
+        "ref": "C",
+        "mut": "G"
+    },
+    "sp": {
+        "description": "Piebald Spotting",
+        "type": "SNP",
+        "gene": "MITF",
+        "file": "MITF_template.fasta",
+        "context": "AAAGCAAGCCC",
+        "ref": "C",
+        "mut": "A"
+    },
+    "sw": {
+        "description": "Extreme White",
+        "type": "SNP",
+        "gene": "MITF",
+        "file": "MITF_template.fasta",
+        "context": "AAAGCAAGCCC",
+        "ref": "C",
+        "mut": "T"
+    },
+    "L": {
+        "description": "Reference: Short Coat",
+        "type": "REF",
+        "gene": "FGF5"
+    },
+    "l": {
+        "description": "Long Coat",
+        "type": "SNP",
+        "gene": "FGF5",
+        "file": "FGF5_template.fasta",
+        "context": "TTGGTGGAAAA",
+        "ref": "G",
+        "mut": "T"
+    }
+}
