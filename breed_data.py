@@ -1,0 +1,67 @@
+"""
+Breed Data Configuration
+=========================
+This file contains the list of dog breeds available in the application.
+You can freely edit this list to add, remove, or modify breeds.
+
+Simply add or remove breed names from the BREEDS list below.
+"""
+
+BREEDS = [
+    "Affenpinscher", "Afghan Hound", "Afghan Shepherd", "Aidi", "Airedale Terrier", "Akbash", "Akita", "Alano Español", "Alaskan Husky", "Alaskan Klee Kai",
+    "Alaskan Malamute", "Alaunt", "Alopekis", "Alpine Dachsbracke", "Alpine Mastiff", "Alpine Spaniel", "American Akita", "American Bulldog", "American Bully", "American Cocker Spaniel",
+    "American English Coonhound", "American Eskimo Dog", "American Foxhound", "American Hairless Terrier", "American Leopard Hound", "American Pit Bull Terrier", "American Staffordshire Terrier", "American Water Spaniel", "Anatolian Shepherd Dog", "Andalusian Hound",
+    "Anglo-Français de Petite Vénerie", "Appenzeller Sennenhund", "Argentine Dogo", "Argentine Pila Dog", "Ariege Pointer", "Ariegeois", "Armant", "Armenian Gampr dog", "Artois Hound", "Australian Bulldog",
+    "Australian Cattle Dog", "Australian Kelpie", "Australian Shepherd", "Australian Silky Terrier", "Australian Stumpy Tail Cattle Dog", "Australian Terrier", "Austrian Black and Tan Hound", "Austrian Pinscher", "Azawakh", "Bakharwal Dog",
+    "Banjara Hound", "Barbado da Terceira", "Barbet", "Basenji", "Basque Ratter", "Basque Shepherd Dog", "Basset Artésien Normand", "Basset Bleu de Gascogne", "Basset Fauve de Bretagne", "Basset Griffon Vendéen, Grand",
+    "Basset Griffon Vendéen, Petit", "Basset Hound", "Bavarian Mountain Hound", "Beagle", "Beagle-Harrier", "Bearded Collie", "Beauceron", "Bedlington Terrier", "Belgian Mastiff", "Belgian Shepherd (Groenendael)",
+    "Belgian Shepherd (Laekenois)", "Belgian Shepherd (Malinois)", "Belgian Shepherd (Tervuren)", "Bergamasco Shepherd", "Berger Blanc Suisse", "Berger Picard", "Bernese Mountain Dog", "Bichon Frisé", "Billy", "Bisben",
+    "Black and Tan Coonhound", "Black and Tan Virginia Foxhound", "Black Norwegian Elkhound", "Black Russian Terrier", "Black Mouth Cur", "Bleu de Gascogne, Grand", "Bleu de Gascogne, Petit", "Bloodhound", "Blue Lacy", "Blue Paul Terrier",
+    "Bluetick Coonhound", "Boerboel", "Bohemian Shepherd", "Bolognese", "Border Collie", "Border Terrier", "Borzoi", "Bosnian Coarse-haired Hound", "Boston Terrier", "Bouvier des Ardennes",
+    "Bouvier des Flandres", "Boxer", "Boykin Spaniel", "Bracco Italiano", "Braque d'Auvergne", "Braque du Bourbonnais", "Braque du Puy", "Braque Francais", "Braque Saint-Germain", "Brazilian Dogo",
+    "Brazilian Terrier", "Briard", "Briquet Griffon Vendéen", "Brittany", "Broholmer", "Bruno Jura Hound", "Bucovina Shepherd Dog", "Bull and Terrier", "Bull Terrier", "Bull Terrier (Miniature)",
+    "Bulldog", "Bullenbeisser", "Bullmastiff", "Bully Kutta", "Burgos Pointer", "Ca de Bou", "Ca de Bestiar", "Cairn Terrier", "Calupoh", "Canaan Dog",
+    "Canadian Eskimo Dog", "Cane Corso", "Cantabrian Water Dog", "Cão da Serra de Aires", "Cão de Castro Laboreiro", "Cão de Fila de São Miguel", "Cão de Gado Transmontano", "Carolina Dog", "Carpathian Shepherd Dog", "Catahoula Leopard Dog",
+    "Catalan Sheepdog", "Caucasian Shepherd Dog", "Cavalier King Charles Spaniel", "Central Asian Shepherd Dog", "Cesky Fousek", "Cesky Terrier", "Chart Polski", "Chesapeake Bay Retriever", "Chien Français Blanc et Noir", "Chien Français Blanc et Orange",
+    "Chien Français Tricolore", "Chien-gris", "Chihuahua", "Chilean Fox Terrier", "Chinese Chongqing Dog", "Chinese Crested Dog", "Chinese Imperial Dog", "Chinook", "Chippiparai", "Chow Chow",
+    "Cierny Sery", "Cimarrón Uruguayo", "Cirneco dell'Etna", "Clumber Spaniel", "Cockapoo", "Combai", "Cordoba Fighting Dog", "Coton de Tulear", "Cretan Hound", "Croatian Sheepdog",
+    "Curly-Coated Retriever", "Cursinu", "Czechoslovakian Vlcak", "Dachshund", "Dalmatian", "Dandie Dinmont Terrier", "Danish-Swedish Farmdog", "Denmark Feist", "Dingo", "Dobermann",
+    "Dogo Cubano", "Dogo Guatemalteco", "Dogo Sardesco", "Dogue de Bordeaux", "Drentse Patrijshond", "Drever", "Dunker", "Dutch Shepherd", "Dutch Smoushond", "East European Shepherd",
+    "East Siberian Laika", "Ecuadorian Hairless Dog", "English Cocker Spaniel", "English Coonhound", "English Foxhound", "English Mastiff", "English Pointer", "English Setter", "English Shepherd", "English Springer Spaniel",
+    "English Toy Terrier (Black & Tan)", "English Water Spaniel", "English White Terrier", "Entlebucher Mountain Dog", "Estonian Hound", "Estrela Mountain Dog", "Eurasier", "Eurohound", "Faroese Sheepdog", "Field Spaniel",
+    "Fila Brasileiro", "Finnish Hound", "Finnish Lapphund", "Finnish Spitz", "Flat-Coated Retriever", "Formosan Mountain Dog", "Fox Terrier (Smooth)", "Fox Terrier (Wire)", "French Brittany", "French Bulldog",
+    "French Spaniel", "Gaddi Kutta", "Galgo Español", "Galician Cattle Dog", "Garafía Shepherd Dog", "Gascon Saintongeois", "Georgian Shepherd", "German Hound", "German Longhaired Pointer", "German Pinscher",
+    "German Roughhaired Pointer", "German Shepherd Dog", "German Shorthaired Pointer", "German Spaniel", "German Spitz", "German Wirehaired Pointer", "Giant Schnauzer", "Glen of Imaal Terrier", "Golden Retriever", "Goldendoodle",
+    "Gonczy Polski", "Gordon Setter", "Grand Anglo-Français Blanc et Noir", "Grand Anglo-Français Blanc et Orange", "Grand Anglo-Français Tricolore", "Grand Griffon Vendéen", "Great Dane", "Great Pyrenees", "Greater Swiss Mountain Dog", "Greek Harehound",
+    "Greek Shepherd", "Greenland Dog", "Greyhound", "Griffon Bleu de Gascogne", "Griffon Fauve de Bretagne", "Griffon Nivernais", "Gull Dong", "Gull Terr", "Hällefors Elkhound", "Halden Hound",
+    "Hamiltonstövare", "Hanover Hound", "Hare Indian Dog", "Harrier", "Havanese", "Hawaiian Poi Dog", "Himalayan Sheepdog", "Hokkaido", "Hortaya Borzaya", "Hovawart",
+    "Huntaway", "Hygen Hund", "Ibizan Hound", "Icelandic Sheepdog", "Indian Pariah Dog", "Indian Spitz", "Irish Red and White Setter", "Irish Setter", "Irish Terrier", "Irish Water Spaniel",
+    "Irish Wolfhound", "Istrian Coarse-haired Hound", "Istrian Shorthaired Hound", "Italian Greyhound", "Jack Russell Terrier", "Jagdterrier", "Jämthund", "Japanese Chin", "Japanese Spitz", "Japanese Terrier",
+    "Jindo", "Jonangi", "Kai Ken", "Kaikadi", "Kangal Shepherd Dog", "Kanni", "Karakachan Dog", "Karelian Bear Dog", "Karst Shepherd", "Keeshond",
+    "Kerry Blue Terrier", "King Charles Spaniel", "King Shepherd", "Kintamani", "Kishu", "Komondor", "Kooikerhondje", "Koolie", "Korean Mastiff", "Kromfohrländer",
+    "Kuchi", "Kunming Wolfdog", "Kurī", "Kuvasz", "Kyi-Leo", "Labradoodle", "Labrador Retriever", "Lagotto Romagnolo", "Lakeland Terrier", "Lancashire Heeler",
+    "Landseer", "Lapponian Herder", "Large Münsterländer", "Leonberger", "Levriero Sardo", "Lhasa Apso", "Lithuanian Hound", "Löwchen", "Lupo Italiano", "Mackenzie River Husky",
+    "Magyar Agár", "Mahratta Greyhound", "Maltese", "Manchester Terrier", "Maremmano-Abruzzese Sheepdog", "McNab Dog", "Miniature American Shepherd", "Miniature Australian Shepherd", "Miniature Bull Terrier", "Miniature Fox Terrier",
+    "Miniature Pinscher", "Miniature Poodle", "Miniature Schnauzer", "Molossus", "Molossus of Epirus", "Mongrel", "Montenegrin Mountain Hound", "Moscow Watchdog", "Mountain Cur", "Mountain Feist",
+    "Mucuchies", "Mudhol Hound", "Mudi", "Neapolitan Mastiff", "Nenets Herding Laika", "New Zealand Heading Dog", "Newfoundland", "Norfolk Spaniel", "Norfolk Terrier", "Norrbottenspets",
+    "North Country Beagle", "Northern Inuit Dog", "Norwegian Buhund", "Norwegian Elkhound", "Norwegian Lundehund", "Norwich Terrier", "Nova Scotia Duck Tolling Retriever", "Old Danish Pointer", "Old English Bulldog", "Old English Sheepdog",
+    "Olde English Bulldogge", "Otterhound", "Pachón Navarro", "Paisley Terrier", "Pampas Deerhound", "Papillon", "Parson Russell Terrier", "Pastore della Lessinia e del Lagorai", "Patagonian Sheepdog", "Patterdale Terrier",
+    "Pekingese", "Pembroke Welsh Corgi", "Perro de Pastor Mallorquin", "Perro de Presa Canario", "Perro de Presa Mallorquin", "Peruvian Inca Orchid", "Petit Basset Griffon Vendéen", "Phalène", "Pharaoh Hound", "Phu Quoc Ridgeback",
+    "Picardy Spaniel", "Plott Hound", "Podenco Canario", "Pointer", "Poitevin", "Polish Greyhound", "Polish Hound", "Polish Hunting Dog", "Polish Lowland Sheepdog", "Polish Tatra Sheepdog",
+    "Pomeranian", "Pont-Audemer Spaniel", "Poodle", "Porcelaine", "Portuguese Podengo", "Portuguese Pointer", "Portuguese Sheepdog", "Portuguese Water Dog", "Posavac Hound", "Potsdam Greyhound",
+    "Prazsky Krysarik", "Pudelpointer", "Pug", "Puli", "Pumi", "Pungsan Dog", "Pyrenean Mastiff", "Pyrenean Mountain Dog", "Pyrenean Shepherd", "Rafeiro do Alentejo",
+    "Rajapalayam", "Rampur Greyhound", "Rat Terrier", "Ratonero Bodeguero Andaluz", "Ratonero Mallorquin", "Ratonero Valenciano", "Redbone Coonhound", "Rhodesian Ridgeback", "Rottweiler", "Rough Collie",
+    "Russian Spaniel", "Russian Toy", "Russian Tracker", "Russo-European Laika", "Russell Terrier", "Saarloos Wolfdog", "Sabueso Español", "Saint Bernard", "Saint John's Water Dog", "Saint-Usuge Spaniel",
+    "Sakhalin Husky", "Saluki", "Samoyed", "Sapsali", "Šarplaninac", "Schapendoes", "Schillerstövare", "Schipperke", "Schweizer Laufhund", "Schweizerischer Niederlaufhund",
+    "Scotch Collie", "Scottish Deerhound", "Scottish Terrier", "Sealyham Terrier", "Segugio Italiano", "Seppala Siberian Sleddog", "Serbian Hound", "Serbian Tricolour Hound", "Shar Pei", "Shetland Sheepdog",
+    "Shiba Inu", "Shih Tzu", "Shikoku", "Shiloh Shepherd", "Siberian Husky", "Silken Windhound", "Silky Terrier", "Sinhala Hound", "Skye Terrier", "Sloughi",
+    "Slovak Cuvac", "Slovakian Rough-haired Pointer", "Slovensky Kopov", "Smålandsstövare", "Small Greek Domestic Dog", "Small Münsterländer", "Smooth Collie", "Smooth Fox Terrier", "Soft-Coated Wheaten Terrier", "South Russian Ovcharka",
+    "Southern Hound", "Spanish Mastiff", "Spanish Water Dog", "Spinone Italiano", "Sporting Lucas Terrier", "Stabyhoun", "Staffordshire Bull Terrier", "Standard Poodle", "Standard Schnauzer", "Stephens Cur",
+    "Styrian Coarse-haired Hound", "Sussex Spaniel", "Swedish Elkhound", "Swedish Lapphund", "Swedish Vallhund", "Tahltan Bear Dog", "Taigan", "Taiwan Dog", "Talbot", "Tamaskan Dog",
+    "Teddy Roosevelt Terrier", "Telomian", "Tenterfield Terrier", "Terceira Mastiff", "Thai Bangkaew Dog", "Thai Ridgeback", "Tibetan Kyi Apso", "Tibetan Mastiff", "Tibetan Spaniel", "Tibetan Terrier",
+    "Tornjak", "Tosa", "Toy Bulldog", "Toy Fox Terrier", "Toy Manchester Terrier", "Toy Poodle", "Toy Trawler Spaniel", "Transylvanian Hound", "Treeing Cur", "Treeing Feist",
+    "Treeing Tennessee Brindle", "Treeing Walker Coonhound", "Trigg Hound", "Tweed Water Spaniel", "Tyrolean Hound", "Uruguayan Cimarron", "Valencian Ratter", "Vanjari Hound", "Villano de las Encartaciones", "Vizsla",
+    "Volpino Italiano", "Weimaraner", "Welsh Corgi (Cardigan)", "Welsh Corgi (Pembroke)", "Welsh Sheepdog", "Welsh Springer Spaniel", "Welsh Terrier", "West Country Harrier", "West Highland White Terrier", "West Siberian Laika",
+    "Westphalian Dachsbracke", "Wetterhoun", "Whippet", "White Shepherd", "Wire Fox Terrier", "Wirehaired Pointing Griffon", "Wirehaired Vizsla", "Xiasi Dog", "Xoloitzcuintli", "Yakutian Laika",
+    "Yorkshire Terrier", "Yugoslavian Shepherd Dog", "Zande Dog", "Zuchon", "Zugspitz", "Zwergpinscher"
+]

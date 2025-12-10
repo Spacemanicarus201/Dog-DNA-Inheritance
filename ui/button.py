@@ -6,7 +6,7 @@ BUTTON_TEXT = (255, 255, 255)
 
 
 class Button:
-    def __init__(self, rect, text, font, callback):
+    def __init__(self, rect, text, font, callback=None):
         self.rect = pygame.Rect(rect)
         self.text = text
         self.font = font
@@ -26,4 +26,21 @@ class Button:
 
         elif event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1 and self.hovered:
+                if self.callback:
+                    self.callback()
+
+    def update(self, mouse, pos):
+        """Alternative update API used by some screens.
+
+        mouse: result of `pygame.mouse.get_pressed()`
+        pos: result of `pygame.mouse.get_pos()`
+
+        Returns True if the button was pressed (left mouse) while hovered.
+        If a callback is registered it will be invoked.
+        """
+        self.hovered = self.rect.collidepoint(pos)
+        if mouse[0] and self.hovered:
+            if self.callback:
                 self.callback()
+            return True
+        return False
